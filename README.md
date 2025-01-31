@@ -49,6 +49,32 @@ You can access the interactive API documentation at:
 - Sufficient disk space for model downloads
 - For GPU acceleration: Compatible GPU with appropriate drivers
 
+// ... existing code ...
+
+## Troubleshooting
+
+### libvips Error
+If you encounter this error:
+```
+OSError: cannot load library 'libvips.42.dylib'
+```
+
+Install libvips using the following commands:
+
+For macOS:
+```bash
+brew install vips
+```
+
+For Ubuntu:
+```bash
+sudo apt update
+sudo apt install libvips libvips-dev
+pip install pyvips
+```
+
+
+
 ## Note
 
 The first run might take some time as it needs to download the model weights from HuggingFace. 
