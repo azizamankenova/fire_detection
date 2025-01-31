@@ -49,8 +49,6 @@ You can access the interactive API documentation at:
 - Sufficient disk space for model downloads
 - For GPU acceleration: Compatible GPU with appropriate drivers
 
-// ... existing code ...
-
 ## Troubleshooting
 
 ### libvips Error
